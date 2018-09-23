@@ -155,6 +155,9 @@ class Dobot(threading.Thread):
             msg.params.extend(bytearray([0x00]))
         return self._send_command(msg)
 
+    def goj(self, j_1, j_2, j_3, r=0.):
+        self._set_ptp_cmd(j_1,j_2,j_3, r, mode=MODE_PTP_MOVJ_ANGLE)
+   
     def go(self, x, y, z, r=0.):
         self._set_ptp_cmd(x, y, z, r, mode=MODE_PTP_MOVJ_XYZ)
 

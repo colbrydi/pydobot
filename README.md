@@ -1,3 +1,9 @@
+
+
+This code is a fork of code provided by [ luismesas/pydobot](https://github.com/luismesas/pydobot).
+
+We our using the DoBot in our NumricalLinearAlgebra course. I added an example in a jupyter notebook and I made a minor modification to add the ```goj``` function to go to a specific joint angle. 
+
 [![CircleCI](https://circleci.com/gh/luismesas/pydobot.svg?style=svg)](https://circleci.com/gh/luismesas/pydobot)
 
 Python library for Dobot Magician
